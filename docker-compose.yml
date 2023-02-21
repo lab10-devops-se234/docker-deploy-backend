@@ -1,6 +1,6 @@
 version: '3.3'
 services:
-backend:
-  image: ptpofficialxd/234-deploylab-backend:latest
-  ports:
-    - "9999"
+  backend:
+    image: ptpofficialxd/234-deploylab-backend:latest
+    ports:
+      - "9999:80"
